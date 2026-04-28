@@ -1,7 +1,63 @@
+# =========================
+# Python Virtual Environment
+# =========================
 venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# Python cache files
+# =========================
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# =========================
+# System files (Mac/Windows)
+# =========================
 .DS_Store
+Thumbs.db
+
+# =========================
+# Jupyter Notebook checkpoints
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# ML Model Files (optional)
+# =========================
 models/
+*.h5
+*.pkl
+*.joblib
+
+# =========================
+# Dataset / Images (optional large files)
+# =========================
 data/images/
+data/raw/
+data/processed/
+
+# =========================
+# Flask uploads (runtime files)
+# =========================
 app/static/uploads/
+uploads/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Environment variables
+# =========================
+.env
+
+# =========================
+# IDE files
+# =========================
+.vscode/
+.idea/
