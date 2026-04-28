@@ -1,8 +1,9 @@
-tensorflow
-pandas
+flask
+gunicorn
 numpy
+pandas
 matplotlib
 scikit-learn
-flask
-Pillow
+tensorflow
+pillow
 openpyxl
